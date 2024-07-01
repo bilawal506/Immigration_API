@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "document_ai"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+uvicorn = {extras = ["standard"], version = "^0.30.1"}
+pydantic = "^2.7.4"
+python-multipart = "^0.0.9"
+openai = "^1.35.4"
+pdfplumber = "^0.11.1"
+python-docx = "^1.1.2"
+pillow = "^10.3.0"
+pdfminer-six = "^20231228"
+sqlmodel = "^0.0.19"
+pytesseract = "^0.3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
